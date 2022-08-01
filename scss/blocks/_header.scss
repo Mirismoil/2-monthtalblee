@@ -1,0 +1,40 @@
+.site-header{
+    margin-bottom: 54px;
+}
+.wrapper-all__text {
+  display: flex;
+}
+.header-inner {
+  width: 771px;
+  margin-right: 64px;
+}
+.header-inner > a {
+  text-decoration: none;
+}
+.header-inner > a > h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  color: #252733;
+}
+.header-top__img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-imgs {
+  margin-right: 28px;
+}
+.top-img__span {
+  padding: 32px 0;
+  margin-right: 32px;
+  border: 1px solid #dfe0eb;
+}
+.header-top__Text::after {
+  padding-left: 7px;
+  display: inline-block;
+  content: url("../../images/photo.svg");
+  vertical-align: middle;
+}
